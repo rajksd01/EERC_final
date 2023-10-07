@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div>
       <Head>
-        <title>Raj's Blog</title>
+        <title>Tech Blog</title>
         <meta
           name="Raj Kasaudhan"
           content="Digital Content Creator, Tech Enthusiast, Web developer, Development, Software enginner"
@@ -19,8 +19,10 @@ export default function Header() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <Link href="#">
-                <h2 className="text-2xl text-yellow-300 font-bold">Raj</h2>
+              <Link href="/">
+                <h2 className="text-2xl text-yellow-300 font-bold">
+                  Raj's Blog
+                </h2>
               </Link>
               <div className="md:hidden">
                 <button
